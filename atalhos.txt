@@ -2,3 +2,5 @@ Ctrl + S = Salvar o arquivo
 Ctrl + ; = Criar comentário
 ! = Cria uma estrutura básica em HTML
 Alt + Z = Quebra de linha no VSCode
+Ctrl + Z = Desfaz alteração
+Ctrl + Y = Refaz alteração
