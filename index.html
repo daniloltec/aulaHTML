@@ -1,0 +1,53 @@
+<!-- Estrutura básica em HTML -->
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: #fff;
+        font-family:
+          "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .mode {
+        background-color: #000000;
+        color: #fff;
+      }
+    </style>
+    <!-- Conteúdo Principal -->
+      <button onclick="mudarTema()">Alterar Tema</button>
+      <marquee behavior="#cdcdcd" direction=""><img src="mj.gif" alt="" /></marquee>
+      <!-- Títutlo Principal -->
+      <h1>Desenvolvimento Web</h1>
+      <!-- Parágrafo Principal -->
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+        commodi praesentium quibusdam minima rerum doloribus, iure maxime modi
+        mollitia et! Commodi, minus sapiente. Aliquam dignissimos numquam
+        nesciunt quis velit maxime.
+      </p>
+      <h2>HTML - Linguagem de Marcação de Hipertexto</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+        praesentium.
+      </p>
+      <marquee direction="right"><img src="https://i.pinimg.com/originals/24/ae/8d/24ae8def288851503cf68340df174963.gif" alt="" width="400"><br></marquee>
+      <!-- Link Externo-->
+      <a href="https://google.com.br" target="_blank" rel="noopener noreferrer"
+        >Ir para o Google</a
+      ><br />
+      <!-- Link Interno -->
+      <a href="detalhes.html">Ir para detalhes </a>
+    </main>
+    <script>
+      function mudarTema() {
+        document.body.classList.toggle("mode");
+      }
+    </script>
+  </body>
+</html>
