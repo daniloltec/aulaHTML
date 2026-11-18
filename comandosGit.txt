@@ -1,0 +1,20 @@
+# Verificar versão git
+git -v
+
+# Configuração
+
+git config --global user.name "seu_usuario_github"
+git congif --global user.email "seu_email_github"
+
+# Clone
+git clone "url_repositorio"
+
+# Adição de alteração
+git add .
+
+# Confirmação de alteração
+git commit -m "descrição da alteração"
+
+# Envio para repositório remoto
+
+git push origin main
