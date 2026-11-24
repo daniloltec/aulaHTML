@@ -4,3 +4,6 @@ Ctrl + ; = Criar comentário
 Alt + Z = Quebra de linha no VSCode
 Ctrl + Z = Desfaz alteração
 Ctrl + Y = Refaz alteração
+
+
+Instalar Prettier - code format
