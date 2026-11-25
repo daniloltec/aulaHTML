@@ -3,64 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tabelas e listas HTML</title>
+    <title>Tabelas e Listas HTML</title>
+    <!-- Estilização do tipo interno -->
+    <style>
+      /* Seletor {propriedade: valor;} */
+      body {
+        background-color: rgba(0, 0, 0, 0.323);
+        color: black; /* todos os filhos recebem a estilização por herança*/
+      }
+    </style>
   </head>
   <body>
     <header>
       <img src="" alt="" />
+      <!-- Tag de navegação -->
       <nav>
         <ul>
-          <li>
-            <a href="">Início</a>
-          </li>
           <li>
             <a href="">Serviços</a>
           </li>
           <li>
             <a href="">Contato</a>
           </li>
+          <li>
+            <a href="">Redes Sociais</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <!-- Listas Ordenadas -->
+      <!-- Listas Ordenadas -->
+      <section style="background-color: rgb(211, 182, 239)">
         <h1>Sequência de Módulos do Curso</h1>
         <ol>
           <li>HTML e CSS</li>
           <li>JavaScript e React</li>
-          <li>Bando de Dados</li>
+          <li>Banco de Dados</li>
           <li>Node com Express e Testes</li>
         </ol>
       </section>
-      <section>
+      <!-- Estilização inline - ou seja na linha da tag como atributo -->
+      <section style="background-color: rgb(153, 181, 234)">
         <h1>Receita de Panqueca de Banana</h1>
+
         <h2>Ingredientes</h2>
-        <ul>
+        <!-- Lista não ordenada -->
+        <ul style="list-style: none">
           <li>1 Banana</li>
           <li>20g Aveia</li>
           <li>1 Ovo</li>
           <li>Mel</li>
         </ul>
         <h2>Modo de Preparo</h2>
-        <ol>
+        <ol type="I">
           <li>Amasse a banana</li>
           <li>
             Junte com a aveia e o ovo e leve ao fogo até ser possível virar
           </li>
           <li>Depois de pronto coloque mel a vontade</li>
         </ol>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+          excepturi reprehenderit possimus nostrum ex atque ea ipsa quos tenetur
+          explicabo natus tempora pariatur cupiditate sunt quasi saepe, sint
+          blanditiis incidunt.
+        </p>
+        <ol start="4" type="I">
+          <li>Continuação da lista</li>
+        </ol>
       </section>
       <section>
         <h1>Definições do Desenvolvimento Web</h1>
+        <!-- Lista de Definição -->
         <dl>
           <dt>HTML</dt>
-          <dd>Linguagem de Marcação de Hypertexto</dd>
+          <dd>Linguagem de Marcação de Hipertexto</dd>
+
           <dt>CSS</dt>
           <dd>Cascade Styles Sheet - Estilização em Folha de Cascata</dd>
+
           <dt>JavaScript/EcmaScript - JS/ES</dt>
           <dd>Linguagem de Programação Web</dd>
         </dl>
+      </section>
+      <section>
+        <!-- Cards - Lista de Produtos -->
+        <h1>Produtos</h1>
+        <ul>
+          <li>
+            <div style="border: 1px solid">
+              <div
+                style="background-color: chartreuse; width: 100%; height: 30px"
+              ></div>
+              <h2>Curso de Fullstack</h2>
+              <span>1 ano de duração</span>
+              <span>48 aulas</span>
+            </div>
+          </li>
+          <li>
+            <div style="border: 1px solid">
+              <div></div>
+              <h2>Curso de Marketing Digital</h2>
+              <span>1 ano de duração</span>
+              <span>48 aulas</span>
+            </div>
+          </li>
+          <li>
+            <div style="border: 1px solid">
+              <div></div>
+              <h2>Curso de Design UX/UI</h2>
+              <span>1 ano de duração</span>
+              <span>48 aulas</span>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
     <footer>
@@ -69,9 +125,9 @@
           <dt>Contato</dt>
           <dd>
             <ul>
-              <li>(85) 98888-8881</li>
-              <li>(85) 3888-8881</li>
-              <li>email@mail.com</li>
+              <li>(85) 99226-8967</li>
+              <li>(85) 3006-8967</li>
+              <li>queiroz.14@hotmail.com</li>
             </ul>
           </dd>
         </dl>
@@ -83,7 +139,7 @@
             <ul>
               <li>Mentoria</li>
               <li>Desenvolvimento de Sistemas</li>
-              <li>Treinamento de Equipes</li>
+              <li>Treinamento de Equipe</li>
             </ul>
           </dd>
         </dl>
@@ -92,11 +148,19 @@
         <dl>
           <dt>Redes Sociais</dt>
           <dd>
-            <ul>
-              <li><a href="">LinkedIn</a></li>
-              <li><a href="">Github</a></li>
-              <li><a href="">Portfólio</a></li>
-            </ul>
+            <nav>
+              <ul>
+                <li>
+                  <a href="https://linkedin.com.br...">LinkedIn</a>
+                </li>
+                <li>
+                  <a href="">Github</a>
+                </li>
+                <li>
+                  <a href="">Portfólio</a>
+                </li>
+              </ul>
+            </nav>
           </dd>
         </dl>
       </div>

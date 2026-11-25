@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        thead{
+            background-color: #995252;
+            color:#fff;
+        }
+        th, td, table{
+            border: 1px solid;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 5px;
+        }
+        tfoot{
+            background-color: #ddf952;
+        }
+        .tf-orc-total{
+            background-color: black;
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+            <td colspan="6">FUNCIONÁRIOS</td>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Documento</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th>Ativo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>1</td>
+            <td>Danilo</td>
+            <td>999.999.999-91</td>
+            <td>email@mail.com</td>
+            <td>(85) 98888-8881</td>
+            <td><img src="https://cdn3d.iconscout.com/3d/premium/thumb/check-mark-3d-icon-png-download-8579926.png?f=webp" alt="" width="15"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Maria</td>
+            <td>999.999.999-92</td>
+            <td>email2@mail.com</td>
+            <td>(85) 98888-8882</td>
+            <td><img src="https://cdn-icons-png.flaticon.com/512/9972/9972749.png" alt="" width="14"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>João</td>
+            <td>999.999.999-93</td>
+            <td>email3@mail.com</td>
+            <td>(85) 98888-8883</td>
+            <td><img src="https://cdn3d.iconscout.com/3d/premium/thumb/check-mark-3d-icon-png-download-8579926.png?f=webp" alt="" width="15"></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+            <td colspan="6">teste</td>
+        </tr>
+      </tffoot>
+    </table>
+    
+<br><br><br><br><br><br>
+
+
+<table>
+      <thead>
+        <tr>
+            <td>COD</td>
+            <td>PRODUTO</td>
+            <td>VALOR UNT</td>
+            <td>QNT</td>
+            <td>TOTAL</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>01105</td>
+            <td>CALÇA JEANS</td>
+            <td>R$ 29,90</td>
+            <td>2</td>
+            <td>R$ 58,80</td>
+        </tr>
+        <tr>
+            <td>01116</td>
+            <td>CAMISA BOLO - BRANCA</td>
+            <td>R$ 39,90</td>
+            <td>3</td>
+            <td>R$ 119,70</td>
+        </tr>
+        <tr>
+            <td>01117</td>
+            <td>CAMISA BOLO - AZUL</td>
+            <td>R$ 39,90</td>
+            <td>1</td>
+            <td>R$ 39,90</td>
+        </tr>
+      </tbody>
+      <tfoot class="tf-orc-total">
+        <tr>
+            <td colspan="4" style="text-align: right;">TOTAL</td>
+            <td colspan="1">R$ 218,40</td>
+        </tr>
+      </tffoot>
+    </table>
+
+  </body>
+</html>
